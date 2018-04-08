@@ -7,10 +7,7 @@ var ROOT_URL = "https://myrtaceous-squid-0185.dataplicity.io/api/"
 
 var options = {
     url: "settings.json",
-    method: "GET",
-    headers: {
-        "Content-Type": "application/json"
-    }
+    method: "GET"
 }
 request.get(options)
     data = ""
