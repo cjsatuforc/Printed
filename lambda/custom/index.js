@@ -1,23 +1,28 @@
 'use strict';
 var Alexa = require("alexa-sdk");
 var request = require("request")
+var fs = require("fs")
 
-var API_KEY = "1BE5251375DA413EA77E983238C5093F"
-var ROOT_URL = "https://myrtaceous-squid-0185.dataplicity.io/api/"
+var data = fs.readFileSync("settings.json")
+data = (JSON.parse(data))
+console.log(data)
 
-var options = {
-    url: "settings.json",
-    method: "GET"
-}
-request.get(options)
-    data = ""
-    .on('response', function (res) {
-        console.log("Got a repsponse", res.statusCode)
-    }).on('data', function(chunk){
-        data += chunk
-    }).on('end', function(){
-        console.log(data)
-    })
+var API_KEY = data.key
+var ROOT_URL = data.url
+
+// var options = {
+//     url: "settings.json",
+//     method: "GET"
+// }
+// request.get(options)
+//     data = ""
+//     .on('response', function (res) {
+//         console.log("Got a repsponse", res.statusCode)
+//     }).on('data', function(chunk){
+//         data += chunk
+//     }).on('end', function(){
+//         console.log(JSON.parse(data))
+//     })
 
 // For detailed tutorial on how to making a Alexa skill,
 // please visit us at http://alexa.design/build
