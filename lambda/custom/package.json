@@ -1,0 +1,11 @@
+{
+  "name": "skill-printed-word",
+  "version": "1.0.0",
+  "description": "Alexa controlled 3D Printing skill",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "Cathacks20182018": {
+      "skill_id": "amzn1.ask.skill.657675a1-e79e-4da1-917e-4b273897a1c5",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-OctoPrint-Cathacks20182018"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

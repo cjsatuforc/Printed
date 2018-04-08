@@ -1,0 +1,180 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "the printer",
+            "types": [],
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AutoHomeIntent",
+                    "slots": [],
+                    "samples": [
+                        "home itself",
+                        "auto home",
+                        "auto home itself",
+                        "home",
+                        "return home",
+                        "go home",
+                        "set itself to home",
+                        "set the printer to home",
+                        "home the printer"
+                    ]
+                },
+                {
+                    "name": "ListFilesIntent",
+                    "slots": [],
+                    "samples": [
+                        "what files can I print",
+                        "what models can I print",
+                        "what prints can I print",
+                        "what jobs can I print",
+                        "what files i can print",
+                        "what models i can print",
+                        "what prints i can print",
+                        "what jobs i can print",
+                        "what can I print",
+                        "what can I do",
+                        "the things I can print",
+                        "what models do I have",
+                        "what prints do I have",
+                        "what jobs do I have",
+                        "what files do I have",
+                        "my files",
+                        "my models",
+                        "my prints",
+                        "my jobs",
+                        "the things I can do",
+                        "list my files",
+                        "list my models",
+                        "list my prints",
+                        "list off my jobs",
+                        "list off my files",
+                        "list off my models",
+                        "list off my prints",
+                        "list my jobs",
+                        "list some files",
+                        "list some models",
+                        "list some prints",
+                        "list some jobs",
+                        "list the files",
+                        "list the models",
+                        "list the prints",
+                        "list the jobs"
+                    ]
+                },
+                {
+                    "name": "PrintFileIntent",
+                    "slots": [
+                        {
+                            "name": "file",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "print {file}",
+                        "print the {file}",
+                        "print the {file} file",
+                        "print me a {file}",
+                        "print a {file}",
+                        "start {file}",
+                        "start the {file}",
+                        "start the {file} file",
+                        "start me a {file}",
+                        "start a {file}",
+                        "run off a {file}",
+                        "run off the {file}",
+                        "load a {file}",
+                        "load up a {file}"
+                    ]
+                },
+                {
+                    "name": "EStopIntent",
+                    "slots": [],
+                    "samples": [
+                        "call e. stop",
+                        "emergency stop",
+                        "e. stop",
+                        "shut down"
+                    ]
+                },
+                {
+                    "name": "PreHeatIntent",
+                    "slots": [],
+                    "samples": [
+                        "turn up the heat",
+                        "preheat the printer",
+                        "preheat",
+                        "get cooking",
+                        "heat up",
+                        "warm up",
+                        "start warming up",
+                        "start heating up",
+                        "start preheating",
+                        "start preheating",
+                        "flame on"
+                    ]
+                },
+                {
+                    "name": "TimeLeftIntent",
+                    "slots": [],
+                    "samples": [
+                        "how much time's left",
+                        "how much time is left",
+                        "what's the e. t. a.",
+                        "what is the e. t. a.",
+                        "what the e. t. a. is",
+                        "what's the reamining time",
+                        "what is the reamining time",
+                        "what's the print countdown",
+                        "what is the print countdown"
+                    ]
+                },
+                {
+                    "name": "CancelIntent",
+                    "slots": [],
+                    "samples": [
+                        "cancel",
+                        "kill the print",
+                        "kill the print job",
+                        "kill the job",
+                        "cancel the print",
+                        "cancel the print job",
+                        "cancel the job",
+                        "stop the job",
+                        "stop the print job",
+                        "stop the print",
+                        "stop",
+                        "kill it"
+                    ]
+                },
+                {
+                    "name": "CoolDown",
+                    "slots": [],
+                    "samples": [
+                        "cool down",
+                        "cool down the printer",
+                        "cool down the bed",
+                        "cool down the hotend",
+                        "cool down the nozzle",
+                        "cool down the extruder",
+                        "cool it down",
+                        "hit the showers",
+                        "chill",
+                        "chill out"
+                    ]
+                }
+            ]
+        }
+    }
+}
